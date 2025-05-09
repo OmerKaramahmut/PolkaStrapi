@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "parallax_imgs",
+  "info": {
+    "singularName": "parallax-img",
+    "pluralName": "parallax-imgs",
+    "displayName": "parallaxImg"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "parallaxImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

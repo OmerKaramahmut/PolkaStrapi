@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "container_imgs",
+  "info": {
+    "singularName": "container-img",
+    "pluralName": "container-imgs",
+    "displayName": "ContainerImg",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

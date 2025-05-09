@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industries_texts",
+  "info": {
+    "singularName": "industries-text",
+    "pluralName": "industries-texts",
+    "displayName": "IndustriesText"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

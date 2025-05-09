@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_copyrights",
+  "info": {
+    "singularName": "footer-copyright",
+    "pluralName": "footer-copyrights",
+    "displayName": "footerCopyright"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

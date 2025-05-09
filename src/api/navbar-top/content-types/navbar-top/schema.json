@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbar_tops",
+  "info": {
+    "singularName": "navbar-top",
+    "pluralName": "navbar-tops",
+    "displayName": "navbarTop"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tel": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    }
+  }
+}

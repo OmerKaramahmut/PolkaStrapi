@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_texts",
+  "info": {
+    "singularName": "product-text",
+    "pluralName": "product-texts",
+    "displayName": "productText",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
