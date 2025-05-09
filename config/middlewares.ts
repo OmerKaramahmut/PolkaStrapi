@@ -38,8 +38,8 @@ export default [
     name: 'strapi::cors',
     config: {
       origin: [
-        'https://polkachemicals.com',
-        'https://www.polkachemicals.com'
+        'https://api.polkachemicals.com',
+        'https://www.api.polkachemicals.com'
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: '*',

@@ -11,7 +11,7 @@
 export default ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
-  url: env('SERVER_URL', 'https://polkachemicals.com'),
+  url: env('SERVER_URL', 'https://api.polkachemicals.com'),
   app: {
     keys: env.array('APP_KEYS'),
   },
