@@ -40,6 +40,7 @@ export default [
         "http://localhost:5173",
         "http://api.polkachemicals.com",
         "https://polkachemicals.com",
+        "https://kurulumfrontend.musayazlik.com",
       ],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
       headers: "*",
