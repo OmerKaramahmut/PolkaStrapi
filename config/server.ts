@@ -7,12 +7,11 @@
 //   },
 // });
 
-
 export default ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
-  port: env.int('PORT', 1337),
-  url: env('SERVER_URL', 'https://api.polkachemicals.com'),
+  host: env("HOST", "0.0.0.0"),
+  port: env.int("PORT", 1337),
+  url: env("SERVER_URL", "https://localhost:1337"),
   app: {
-    keys: env.array('APP_KEYS'),
+    keys: env.array("APP_KEYS"),
   },
 });

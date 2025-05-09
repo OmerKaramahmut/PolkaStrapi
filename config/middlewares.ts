@@ -30,27 +30,27 @@
 //   'strapi::public',
 // ];
 
-
 export default [
-  'strapi::errors',
-  'strapi::security',
+  "strapi::errors",
+  "strapi::security",
   {
-    name: 'strapi::cors',
+    name: "strapi::cors",
     config: {
       origin: [
-        'https://api.polkachemicals.com',
-        'https://www.api.polkachemicals.com'
+        "http://localhost:5173",
+        "http://api.polkachemicals.com",
+        "https://polkachemicals.com",
       ],
-      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
-      headers: '*',
+      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+      headers: "*",
       credentials: true,
     },
   },
-  'strapi::poweredBy',
-  'strapi::logger',
-  'strapi::query',
-  'strapi::body',
-  'strapi::session',
-  'strapi::favicon',
-  'strapi::public',
+  "strapi::poweredBy",
+  "strapi::logger",
+  "strapi::query",
+  "strapi::body",
+  "strapi::session",
+  "strapi::favicon",
+  "strapi::public",
 ];
