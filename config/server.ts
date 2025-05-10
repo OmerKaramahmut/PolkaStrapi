@@ -14,4 +14,5 @@ export default ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS"),
   },
+  allowedHosts: ["api.polkachemicals.com"],
 });
