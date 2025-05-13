@@ -28,11 +28,6 @@
       "type": "uid",
       "targetField": "name"
     },
-    "product": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::product.product",
-      "mappedBy": "category"
-    }
+
   }
 }
